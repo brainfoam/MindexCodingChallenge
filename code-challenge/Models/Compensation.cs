@@ -8,6 +8,7 @@ namespace challenge.Models
     public class Compensation
     {
         [Key] public string EmployeeId { get; set; } //Primary key for data transfer
+        
         private int _salary;
         private DateTime _effectiveDate;
 
