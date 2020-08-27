@@ -33,7 +33,5 @@ namespace challenge.Models
         /// The employee's effective date and time of employment.
         /// </summary>
         public DateTime EffectiveDate { get { return _effectiveDate; } set { _effectiveDate = value; } }
-        
-        
     }
 }
