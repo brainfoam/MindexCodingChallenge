@@ -21,7 +21,7 @@ namespace challenge.Models
         {
             _salary        = salary;
             _effectiveDate = effectiveDate;
-            EmployeeId = employeeID; //Set employee ID
+            EmployeeId     = employeeID; //Set employee ID
         }
 
         /// <summary>
