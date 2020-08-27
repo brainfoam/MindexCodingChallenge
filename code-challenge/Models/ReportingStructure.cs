@@ -9,21 +9,21 @@ namespace challenge.Models
         /// <summary>
         /// Creates a new reporting structure.
         /// </summary>
-        public ReportingStructure(Employee _employee) 
+        public ReportingStructure(Employee employee) 
         {
-            Employee = _employee;
+            Employee = employee;
         }
 
         /// <summary>
         /// Collects the amount of reports that an employee has under them.
         /// </summary>
         /// <param name="e">The employee being analyzed.</param>
-        private int CollectReports(Employee _employee)
+        private int CollectReports(Employee employee)
         {
             int reportCount = 0;
 
             //Apply to all children
-            foreach (Employee under in _employee.DirectReports)
+            foreach (Employee under in employee.DirectReports)
             {
                 try
                 {
